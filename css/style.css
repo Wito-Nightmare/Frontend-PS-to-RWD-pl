@@ -1,0 +1,58 @@
+html,body{
+  margin:0 auto;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+.nav>li{
+  float: left;
+  text-decoration: none;
+list-style: none;
+}
+nav{
+width:100%;
+height: 48px;;
+}
+
+body{
+  /*background-color: #FFFFFF;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-image: url("../zadanie.jpg");
+}
+
+.nav-nav_list{
+  background-color: #1F1A17;
+}
+
+.nav-nav_list>.container>.nav>li{
+color: white;
+vertical-align: middle;
+padding: 15.5px 0;
+margin-right: 75px;
+font-size: 15px;
+text-align: center;
+}
+
+.nav-nav_list>.container>.nav>.active{
+  -webkit-box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
+  -moz-box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
+  box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
+}
+.nav-control{
+      height: 117px;
+}
+
+.banner{
+  background: #cfe7fa; /* Old browsers */
+  background: -moz-linear-gradient(left,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
+  background: linear-gradient(to right,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+
+}
