@@ -1,3 +1,4 @@
+/*
 $('.nav-nav_list li').on('click',function(e){
     if($(e.target).hasClass('active')){
     }else{
@@ -6,6 +7,7 @@ $('.nav-nav_list li').on('click',function(e){
     $(e.target).addClass('active');
     }
 });
+*/
 $("#header__button").click(function() {
   $(this).toggleClass("hamburger--open");
   $( ".mobile-nav" ).slideToggle( "fast", function() { });
