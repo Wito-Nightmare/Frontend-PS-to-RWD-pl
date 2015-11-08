@@ -7,13 +7,14 @@
   <meta name="author" content="Witold Budzioch">
   <link href="css/rwd.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
   <header>
     <nav class="nav-control moboff">
       <div class="container">
         <ul class="nav col-12">
-          <li><a class="header-name" href=""><img src="image/logo.png"></a></li>
+          <li><a class="header-name " href="">I<i class="fa fa-recolor fa-circle"></i>sklep</a></li>
           <li><form>
           <input type="text" placeholder="Szukaj produktu..." name="search"><input type="submit" value="search">
           </form></li>
@@ -25,15 +26,16 @@
     <nav class="nav-nav_list">
       <div class="container">
         <ul class="nav col-12">
-          <li class="mobon nav-item"><a class="header-name" href=""><img src="image/logo.png"></a></li>
-          <li class="moboff nav-item active"><a href="">PRODUKTY</a></li>
-          <li class="moboff nav-item"><a href="">PROMOCJE</a></li>
-          <li class="moboff nav-item"><a href="">NOWOSCI</a></li>
-          <li class="moboff nav-item"><a href="">BESTSELLERY</a></li>
-          <li class="mobon nav-item-right"><a href="#" class="hamburger"></a></li>
-          <li class="mobon nav-item-right koszyk"><a href="#" class=""></a></li>
-          <li class="mobon nav-item-right lista"><a href="#" class=""></a></li>
-          <li class="mobon nav-item-right konto"><a href="#" class=""></a></li>
+          <li class="mobon nav-item nav-header-mobile"><a class="header-name" href="#">I<i class="fa fa-circle fa-recolor"></i>sklep</a></li>
+          <li class="moboff nav-item active"><a href="#">PRODUKTY</a></li>
+          <li class="moboff nav-item"><a href="#">PROMOCJE</a></li>
+          <li class="moboff nav-item"><a href="#">NOWOSCI</a></li>
+          <li class="moboff nav-item"><a href="#">BESTSELLERY</a></li>
+          <li class="mobon nav-item-right hamburger__menu"><a id="header__button" class="hamburger" href="#"><div class="hamburger__inner"></div></a></li>
+          <li class="mobon nav-item-right koszyk"><a href="#" class=""><i class="fa fa-shopping-cart"></i></a></li>
+          <li class="mobon nav-item-right lista"><a href="#" class=""><i class="fa fa-star-o"></i></a></li>
+          <li class="mobon nav-item-right konto"><a href="#" class=""><i class="fa fa-user"></i></a></li>
+          <li class="mobon nav-item-right look"><a href="#" class=""><i class="fa fa-search"></i></a></li>
 
         </ul>
       </div>
@@ -41,13 +43,30 @@
     <nav class="mobile-nav" style="display:none;">
       <div class="container">
         <ul>
-        <li class="col-12 nav-item active"><a href="">PRODUKTY</a></li>
-        <li class="col-12 nav-item"><a href="">PROMOCJE</a></li>
-        <li class="col-12 nav-item"><a href="">NOWOSCI</a></li>
-        <li class="col-12 nav-item"><a href="">BESTSELLERY</a></li>
+        <li class="col-12 nav-item"><a href="#">PRODUKTY</a></li>
+        <li class="col-12 nav-item"><a href="#">PROMOCJE</a></li>
+        <li class="col-12 nav-item"><a href="#">NOWOSCI</a></li>
+        <li class="col-12 nav-item"><a href="#">BESTSELLERY</a></li>
       </ul>
       </div>
     </nav>
+    <nav class="mobile-look" style="display:none;">
+    <div class="container">
+      <ul>
+      <li class="col-12 nav-item">
+        <div class="search-box">
+        <form class="search-form">
+          <input class="form-control" placeholder="Szukaj produktu..." type="text">
+          <button class="search-button" >
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </li>
+    </ul>
+    </div>
+  </nav>
+  </nav>
   </header>
   <div class="main">
     <div class="banner">
