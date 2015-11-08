@@ -13,13 +13,13 @@ ul {
 .nav>li{
   text-decoration: none;
 list-style: none;
+display: inline-block;
 }
 nav{
 width:100%;
-height: 48px;
 }
-li {
-    display: inline;
+.nav-control > .container{
+  padding-top: 40px;
 }
 body{
   background-color: #FFFFFF;
@@ -30,23 +30,42 @@ body{
 }
 .nav-item-right{
   float:right;
+  margin-left: 15px;
 }
 .nav-item{
   float: left;
 }
 .nav-nav_list{
   background-color: #1F1A17;
+  height: 48px;
+  border-bottom: 1px solid rgba(66, 67, 65, 0.62);
 }
 
 .nav-nav_list>.container>.nav>li{
 color: white;
-vertical-align: middle;
-padding: 15.5px 0;
-/*margin-right: 75px;*/
 font-size: 15px;
 text-align: center;
 }
-
+.mobile-nav{
+  display: none;
+  position: absolute;
+}
+.mobile-nav > .container{
+  background-color: #1F1A17;
+  padding:0;
+}
+.mobile-nav > .container>ul>li{
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px;
+  border-bottom: 1px solid rgba(66, 67, 65, 0.62);
+}
+.mobile-nav > .container>ul>li>a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+}
 .nav-nav_list>.container>.nav>.active{
   -webkit-box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
   -moz-box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
@@ -57,12 +76,75 @@ text-align: center;
 }
 
 .banner{
-  background: #cfe7fa; /* Old browsers */
-  background: -moz-linear-gradient(left,  #cfe7fa 0%, #6393c1 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  #cfe7fa 0%,#6393c1 100%); /* IE10+ */
-  background: linear-gradient(to right,  #cfe7fa 0%,#6393c1 100%); /* W3C */
+  background: rgb(207,231,250);
+  background: -moz-linear-gradient(left, rgba(207,231,250,0.32) 0%, rgba(99,147,193,0.32) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(207,231,250,0.32)), color-stop(100%,rgba(99,147,193,0.32)));
+  background: -webkit-linear-gradient(left, rgba(207,231,250,0.32) 0%,rgba(99,147,193,0.32) 100%);
+  background: -o-linear-gradient(left, rgba(207,231,250,0.32) 0%,rgba(99,147,193,0.32) 100%);
+  background: -ms-linear-gradient(left, rgba(207,231,250,0.32) 0%,rgba(99,147,193,0.32) 100%);
+  background: linear-gradient(to right, rgba(207,231,250,0.32) 0%,rgba(99,147,193,0.32) 100%);
+}
+.hamburger {
+  display: block;
+  margin-top:1px;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  -webkit-transition: background 0.2s ease-in-out;
+  -moz-transition: background 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
+}
 
+.hamburger:before, .hamburger:after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  -webkit-transition-property: -webkit-transform, top;
+  -moz-transition-property: -moz-transform, top;
+  transition-property: transform, top;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.hamburger:after {
+  top: 60%;
+}
+
+.hamburger.open:before, .hamburger.open:after {
+  top: 40%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.hamburger.open:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+h1, p {
+  font-family: sans-serif;
+}
+.konto, .lista, .koszyk{
+  position: relative;
+  width: 45px;
+  height: 45px;
+  background-color: red;
 }

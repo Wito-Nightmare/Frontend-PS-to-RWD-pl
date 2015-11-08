@@ -3,10 +3,19 @@
     margin:0 auto;
     padding:0;
 }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid red;
+    padding: 0px 15px;
+    /*border: 1px solid red;*/
 }
 .container:after {
     content: "";
@@ -28,11 +37,11 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container{
-      margin-left: 350px;
-      margin-right: 350px;
+      padding-left: 350px;
+      padding-right: 350px;
     }
     .mobon{
-      display:none;
+      display:none !important;
     }
 }
     @media only screen and (max-width: 1600px) {
@@ -49,11 +58,11 @@
         .col-11 {width: 91.66%;}
         .col-12 {width: 100%;}
         .container{
-          margin-left: 200px;
-          margin-right: 200px;
+          padding-left: 200px;
+          padding-right: 200px;
         }
         .mobon{
-          display:none;
+          display:none !important;
         }
     }
 
@@ -72,15 +81,15 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container{
-      margin-left: 20px;
-      margin-right: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     .mobon{
-      display:none;
+      display:none !important;
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -94,14 +103,13 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .moboff{
-      display:none;
+      display:none !important;
     }
     .mobon{
-      display:block;
+      display:block !important;
     }
     .container{
-      margin-left: 5px;
-      margin-right: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
     }
-
 }
