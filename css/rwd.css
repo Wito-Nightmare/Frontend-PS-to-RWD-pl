@@ -43,6 +43,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .mobon{
       display:none !important;
     }
+    .image-banner{
+        width: 100%;
+        display: block;
+        margin-left: 175px;
+        margin-right: auto;
+        height: auto;
+        max-width: 428px;
+    }
 }
     @media only screen and (max-width: 1600px) {
         .col-1 {width: 8.33%;}
@@ -63,6 +71,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         }
         .mobon{
           display:none !important;
+        }
+        .image-banner{
+            width: 100%;
+            display: block;
+            margin-left: 175px;;
+            margin-right: auto;
+            height: auto;
+            max-width: 428px;
         }
     }
 
@@ -87,11 +103,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .mobon{
       display:none !important;
     }
+    .image-banner{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 428px;
+    }
 }
 
 @media only screen and (max-width: 740px) {
   [class*="col-"] {
     width: 100%;
+  }
+  .image-banner{
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      max-width: 428px;
   }
     .moboff{
       display:none !important;
