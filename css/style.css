@@ -327,7 +327,7 @@ body
 	margin:0 5px
 }
 
-i.fa.fa-shopping-cart::after
+i.fa.fa-shopping-cart.mobile::after
 {
 	position:absolute;
 	content:attr(data-shoping-cart-items);

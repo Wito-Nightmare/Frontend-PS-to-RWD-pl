@@ -117,12 +117,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   [class*="col-"] {
     width: 100%;
   }
+  .col-m-5 {width: 41.66%;}
+  .col-m-7 {width: 58.33%;}
   .image-banner{
       width: 50%;
       display: block;
       margin-left: auto;
       margin-right: auto;
       height: auto;
+      min-width: 152px;
       max-width: 428px;
   }
     .moboff{
