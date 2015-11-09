@@ -37,3 +37,11 @@ $(window).resize(function() {
     $( ".mobile-look" ).slideUp( "fast", function() { });
   }
 });
+
+$( document ).ready(function() {
+    $("i.fa.fa-shopping-cart").attr('data-shoping-cart-items','0');
+});
+
+$(".main").click(function() {
+    $("i.fa.fa-shopping-cart").attr('data-shoping-cart-items',parseInt($("i.fa.fa-shopping-cart").attr('data-shoping-cart-items')) + 1);
+  });

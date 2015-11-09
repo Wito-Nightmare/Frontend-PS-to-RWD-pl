@@ -52,20 +52,20 @@ text-align: center;
   position: absolute;
 }
 .mobile-nav > .container{
-  background-color: #1F1A17;
+  background: #eaeaea;
   padding:0;
 }
 .mobile-nav > .container>ul>li{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-bottom: 1px solid rgba(66, 67, 65, 0.62);
+  border-bottom: 1px solid rgba(80,80,80,0.1);
 }
 .mobile-nav > .container>ul>li>a{
-    padding: 10px;
+  color: #505050;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
-  color:white;
   width: 100%;
   height: 100%;
   display: block;
@@ -76,7 +76,8 @@ text-align: center;
   position: absolute;
 }
 .mobile-look > .container{
-  background-color: #1F1A17;
+  color: #505050;
+  background: #eaeaea;
   padding:0;
 }
 .mobile-look> .container>ul>li{
@@ -84,15 +85,7 @@ text-align: center;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
-  border-bottom: 1px solid rgba(66, 67, 65, 0.62);
-}
-.mobile-look > .container>ul>li>a{
-  text-align: center;
-  text-decoration: none;
-  color:white;
-  width: 100%;
-  height: 100%;
-  display: block;
+  border-bottom: 1px solid rgba(80,80,80,0.1);
 }
 .nav-nav_list>.container>.nav>.active{
   -webkit-box-shadow: inset 0px -4px 0px 0px rgba(1,155,255,1);
@@ -224,6 +217,9 @@ text-align: center;
     outline: 0;
 }
 .search-box .search-button {
+    box-shadow: none;
+    outline-offset: 0;
+    outline: 0;
     position: absolute;
     right: 15px;
     top: 6px;
@@ -250,11 +246,11 @@ color: #B1A9B1;
   font-size: 7px !important;
   line-height: 0px;
   vertical-align: middle;
+  margin: 0 5px;
 }
 i.fa.fa-shopping-cart::after {
-  display: inline-block;
       position: absolute;
-      content: "1";
+      content: attr(data-shoping-cart-items);
       font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
       text-align: center;
       font-size: 11px;
@@ -266,4 +262,8 @@ i.fa.fa-shopping-cart::after {
       right: 0;
       border-radius: 10px;
       background-color:#009DE4;
+}
+.bigI{
+  display: inline-block;
+  font-size: 29px;
 }
