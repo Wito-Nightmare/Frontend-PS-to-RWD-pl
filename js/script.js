@@ -1,13 +1,13 @@
-/*
-$('.nav-nav_list li').on('click',function(e){
+
+$('.nav-list-item').on('click',function(e){
     if($(e.target).hasClass('active')){
     }else{
     var previous = $(".nav-nav_list .nav").children(".active");
     previous.removeClass('active');
-    $(e.target).addClass('active');
+    $(e.target).parent().addClass('active');
     }
 });
-*/
+
 
 //PHP CURL POST AND GET REST API
 
@@ -41,10 +41,6 @@ $(window).resize(function() {
   }
 });
 
-$( document ).ready(function() {
+jQuery(document).ready(function($) {
     $("i.fa.fa-shopping-cart.mobile").attr('data-shoping-cart-items','0');
 });
-
-$(".main").click(function() {
-    $("i.fa.fa-shopping-cart.mobile").attr('data-shoping-cart-items',parseInt($("i.fa.fa-shopping-cart.mobile").attr('data-shoping-cart-items')) + 1);
-  });
