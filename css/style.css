@@ -303,8 +303,8 @@ body
 	font-size: 15px;
 }
 
-.banner-text>hr{
-	width: 1.1em;
+.banner-text>.break-line{
+	width: 23px;
 	margin: 21px 0;
 	border-top: 0;
 	border-bottom: 1px solid black;
@@ -322,6 +322,7 @@ body
 	background: none;
 	background-color: white;
 	color: #1f1916;
+	outline: none;
 }
 
 .buy-now-button.button-out{
@@ -334,15 +335,24 @@ height: 46px;
 .buy-now-button.button-inner{
 	width: 170px;
 	height: 40px;
-	outline: none;
 }
-
+.buy-now-button-mobile.button-out{
+	margin-top: 70px;
+	margin-left: 5px;
+	width: 120px;
+	height: 40px;
+}
+.buy-now-button-mobile.button-inner{
+width: 115px;
+height: 34px;
+}
 .banner-text>span{
 	font-size: 13.5px;
 	width: 100%;
 	text-align: justify;
 	height: 90px;
 	display: block;
+	    line-height: 13.5px;
 }
 .banner-title{
 			font-family: "Times New Roman", Times, serif;
