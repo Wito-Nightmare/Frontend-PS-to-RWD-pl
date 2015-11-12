@@ -51,6 +51,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         height: auto;
         max-width: 428px;
     }
+    .banner-text{
+        font-size: 65px;
+        margin-top: 113px;
+    }
     .nav-control>.container>.nav>li>.search-box{
     			margin-top: 1px;
     	    margin-left: 30px;
@@ -109,6 +113,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
               -moz-transition: all 200ms ease-in-out;
               transition: all 200ms ease-in-out;
         }
+        .banner-title{
+            font-size: 55px;
+            margin-top: 113px;
+        }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -152,6 +160,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           -moz-transition: all 200ms ease-in-out;
           transition: all 200ms ease-in-out;
     }
+    .banner-title{
+        font-size: 50px;
+        margin-top: 113px;
+    }
 }
 
 @media only screen and (max-width: 960px) {
@@ -189,5 +201,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
+    }
+    .banner-title{
+        font-size: 55px;
+        margin-top: 20px;
     }
 }
