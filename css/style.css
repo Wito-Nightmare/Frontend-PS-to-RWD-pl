@@ -491,3 +491,19 @@ margin-top: 50px;
 font-size: 13px;
 font-weight: bold;
 }
+.price::before{
+	content:attr(price-tag);
+}
+
+.item_shop>li>.break-line {
+	width: 17px;
+	margin: 15px auto;
+	border-top: 0;
+	border-bottom: 1px solid black;
+	}
+	.item_shop{
+		display: inline-block;
+		text-align: center;
+		margin: 28px;
+		margin-top: 35px;
+	}

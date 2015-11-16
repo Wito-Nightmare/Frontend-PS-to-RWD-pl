@@ -61,7 +61,6 @@ $(document).ready(function() {
     $(".number-price").attr('data-shoping-cart-price','00,00');
 });
 
-
 var autoSizeText;
 
 autoSizeText = function() {
@@ -93,7 +92,7 @@ autoSizeText = function() {
 $(".item_shop>.add-to-cart").click(function() {
     $("span.number-items").attr('data-shoping-cart-items',parseInt($("span.number-items").attr('data-shoping-cart-items')) + 1);
     price_old = $("span.number-price").attr('data-shoping-cart-price').split(",");
-    price = $(".item_shop>.add-to-cart").attr('price-tag').split(",");
+    price = $(this).parent().children(".price").attr('price-tag').split(",");
     new_price_before_coma = parseInt(price_old[0])+ parseInt(price[0]);
     new_price_after_coma = parseInt(price_old[1]) + parseInt(price[1]);
     if(new_price_after_coma>=100){
