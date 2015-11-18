@@ -38,7 +38,7 @@ body > .warper {
 	 min-height: 100%;
 }
 .warper{
- 		padding-bottom: 3em;
+ 		padding-bottom: 370px;
 }
 ul
 {
@@ -552,8 +552,8 @@ footer{
   position: relative;
   z-index: 10;
 	background-color: red;
-  height: 3em;
-  margin-top: -3em;
+	height: 370px;
+	margin-top: -370px;
 }
 .button-shop-show-more{
 	MARGIN: 0 auto;
@@ -756,16 +756,12 @@ dl.item_shop>dt>.add-to-cart:hover{
 	background-color: #009DE4;
 }
 .box-left, .box-right{
-	height: 230px;
+	height: 261px;
 	margin-top: 60px;
 	width: 96%;
+	margin-bottom: 45px;
 }
-.box-left{
-   margin-left: 0;
-}
-.box-right{
-    margin-right: 0;
-}
+
 .social>.container>.col-6{
 	    padding: 0;
 }
@@ -779,4 +775,87 @@ dl.item_shop>dt>.add-to-cart:hover{
     background-color: #F3F3F3;
 		width: 100%;
 		height: 100%;
+}
+.button-social-go{
+		MARGIN: 0 auto;
+    height: 38px;
+    display: block;
+    border: 0;
+    line-height: 12px;
+    font-size: 12px;
+    padding: 13px;
+    color: white;
+    background-color: #009DE4;
+}
+.item_social{
+	text-align: center;
+}
+
+.item_social>li>.break-line{
+	width: 17px;
+  margin: 11px auto 19px auto;
+	border-top: 0;
+	border-bottom: 1px solid black;
+}
+.social_title{
+	font-family: "Times New Roman", Times, serif;
+	letter-spacing: -1px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+}
+.text_social{
+	font-size: 13px;
+}
+.news_title{
+	font-family: Journal;
+	background-image: url('../image/News-underline.png');
+	font-size: 60px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding: 0 10px;
+	color: #009DE4;
+	line-height: 74px;
+}
+.news.item_social{
+  padding-top: 2px;
+}
+.text_news{
+	font-size: 13px;
+	line-height: 16px;
+}
+.item_social.news>li>.break-line{
+		margin: 2px auto 19px auto;
+}
+.email-box{
+	position: relative;
+}
+.email-control{
+	outline: 0;
+	left: 0;
+	margin-left: -10px;
+	position: absolute;
+	padding: 10px;
+	top: -1px;
+	height: 38px;
+	padding-left: 30px;
+	border: 1px solid #DDD;
+	border-right: 0px solid #DDD;
+	width: 77%;
+
+}
+.email-button{
+	position: absolute;
+	right: 0;
+	border: 0;
+	width: 30.5%;
+	height: 37px;
+	margin: 0 -5px;
+	color: white;
+	background-color: #009DE4;
+}
+.email-fa{
+	left: 0;
+	position: absolute;
+	top: 9px;
+	color: #DDD;
 }

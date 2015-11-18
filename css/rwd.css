@@ -79,7 +79,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       width: 24%;
     }
     .item_blog{
-      margin-left: -25px;
+      margin-right: -25px;
     }
     .blog_article{
       border: 0px solid #ddd;
@@ -93,6 +93,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         border-top: 0;
         border-bottom: 1px solid black;
     }
+    .social_title{
+        font-size: 34px;
+    }
+    .text_social, .text_news{
+            height: 58px;
+    }
+    .box-left{
+      margin-left:0;
+    }
+    .box-right{
+      margin-right:0;
+    }
+    .item_social{
+       padding: 30px 60px;
+     }
+
 }
     @media only screen and (max-width: 1800px) {
         .col-1 {width: 8.33%;}
@@ -144,16 +160,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             margin-top: 113px;
         }
         .button-shop-show-more {
-          width: 24%;
+          width: 26%;
         }
         .item_blog{
-          margin-left: -25px;
+          margin-right: -25px;
         }
         .blog_article{
           border: 0px solid #ddd;
         }
         .button-blog-go{
-          width: 15%;
+          width: 17%;
         }
         .blog>.container>.col-12>.break-line{
             width: 18px;
@@ -161,6 +177,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             border-top: 0;
             border-bottom: 1px solid black;
         }
+        .social_title{
+            font-size: 34px;
+        }
+        .text_social, .text_news{
+            height: 58px;
+        }
+        .box-left{
+          margin-left:0;
+        }
+        .box-right{
+          margin-right:0;
+        }
+        .item_social{
+           padding: 30px 60px;
+         }
 }
 
 @media only screen and (max-width: 1360px) {
@@ -213,16 +244,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         margin-top: 113px;
     }
     .button-shop-show-more {
-      width: 24%;
+      width: 27%;
     }
     .item_blog{
-      margin-left: -25px;
+      margin-right: -25px;
     }
     .blog_article{
       border: 0px solid #ddd;
     }
     .button-blog-go{
-      width: 15%;
+      width: 20%;
     }
     .blog>.container>.col-12>.break-line{
         width: 18px;
@@ -230,6 +261,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         border-top: 0;
         border-bottom: 1px solid black;
     }
+    .social_title{
+        font-size: 34px;
+    }
+    .text_social, .text_news{
+        height: 76px;
+    }
+    .box-left{
+      margin-left:0;
+    }
+    .box-right{
+      margin-right:0;
+    }
+    .item_social{
+       padding: 30px 60px;
+     }
 }
 
 @media only screen and (max-width: 960px) {
@@ -276,7 +322,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       width: 90%;
     }
     .item_blog{
-      margin-left: 0px;
+      margin-right: 0px;
     }
     .blog_article{
       border: 1px solid #ddd;
@@ -287,5 +333,23 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .blog>.container>.col-12>.break-line{
     		margin: 20px auto 20px auto;
     		border-bottom: 0px solid black;
+    }
+    .social_title{
+        font-size: 20px;
+    }
+    .text_social{
+        height: 90px;
+    }
+    .text_news{
+        height: 76px;
+    }
+    .box-left{
+      margin-left:auto;
+    }
+    .box-right{
+      margin-right: auto;
+    }
+    .item_social{
+      padding: 30px 20px;
     }
 }
