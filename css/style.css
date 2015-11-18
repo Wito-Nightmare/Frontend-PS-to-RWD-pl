@@ -68,7 +68,6 @@ body
 {
 	background-color:#FFF;
 	background-repeat:no-repeat;
-	background-attachment:fixed;
 	background-position:center top;
 	/*background-image:url(../zadanie.jpg);*/
 }
@@ -552,6 +551,7 @@ footer{
 	clear: both;
   position: relative;
   z-index: 10;
+	background-color: red;
   height: 3em;
   margin-top: -3em;
 }
@@ -682,7 +682,9 @@ dl.item_shop>dt>.add-to-cart:hover{
 		margin: 0px;
 		line-height: 1px;
 	}
-
+.blog{
+	  margin-bottom: 20px;
+}
 .shop-item-name{
     color: #737373;
 		font-size: 13px;
@@ -692,17 +694,89 @@ dl.item_shop>dt>.add-to-cart:hover{
     font-size: 14px;
     font-weight: bold;
 }
-.blog>.container>.col-12>.break-line{
-		width: 18px;
-		margin: -10px auto 60px auto;
-		border-top: 0;
-		border-bottom: 1px solid black;
-}
 .blog_article{
 		height: 330px;
 		margin-bottom: 60px;
 }
-.blog_article>.img_article{
+.img_article{
 		height: 100%;
-    background-color: orange;
+		margin-left: -7px;
+}
+.item_blog{
+    text-align: center;
+    margin-top: 35px;
+	}
+
+.blog_title{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 20px;
+	}
+
+.item_blog>li>.break-line{
+	width: 17px;
+	margin: 15px auto 19px auto;
+	border-top: 0;
+	border-bottom: 1px solid black;
+}
+.text_blog_short{
+		font-size: 12px;
+		line-height: 17px;
+		height: 110px;
+		margin-bottom: 24px;
+		color: #737373;
+}
+
+.show-more-blog-button.button-inner{
+	height: 40px;
+	width: 98%;
+	background-color: rgb(243, 243, 243);
+}
+
+.show-more-blog-button.button-out{
+	float: none;
+	width: 80%;
+	height: 46px;
+	border-color:  rgb(243, 243, 243);
+}
+.border_center_article{
+	border-left: 1px solid #ddd;
+}
+.button-blog-go{
+	MARGIN: 0 auto;
+	height: 40px;
+	margin-bottom: -20px;
+	display: block;
+	border: 0;
+	line-height: 12px;
+	font-size: 12px;
+	padding: 13px;
+	color: white;
+	background-color: #009DE4;
+}
+.box-left, .box-right{
+	height: 230px;
+	margin-top: 60px;
+	width: 96%;
+}
+.box-left{
+   margin-left: 0;
+}
+.box-right{
+    margin-right: 0;
+}
+.social>.container>.col-6{
+	    padding: 0;
+}
+.container-info-social{
+		padding: 15px;
+		width: 100%;
+		height: 100%;
+    border: 1px solid #E5E5E5;
+}
+.inner-info-social{
+    background-color: #F3F3F3;
+		width: 100%;
+		height: 100%;
 }
