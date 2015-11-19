@@ -40,6 +40,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       padding: 0px;
       width:20%;
     }
+    .container-special{
+      padding-left: 232px;
+      padding-right: 232px;
+    }
     .container{
       padding-left: 350px;
       padding-right: 350px;
@@ -108,7 +112,80 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .item_social{
        padding: 30px 60px;
      }
-
+     .footer-info>ul{
+        padding: 35px 0px 0px 33%;
+     }
+     .footer-info{
+       width: 25%;
+     }
+     .footer-about{
+        width: 18.5%;
+     }
+     .footer-pay{
+          width: 27%;
+     }
+     .footer-contact{
+       width: 29.5%;
+     }
+     .shop>.container>nav>ul>li {
+         margin: 0 27px;
+     }
+     footer{
+       height:370px;
+       margin-top: -370px;
+     }
+     .warper{
+          padding-bottom: 370px;
+     }
+     .footer-bottom{
+       margin-top: 0px;
+       height: 89px !important;
+     }
+     .copyright-name {
+          margin: 15px 0px 15px 80px;
+          position: absolute;
+          line-height: 18px;
+          font-weight: 700;
+          font-size: 18px;
+          color: #000;
+          text-decoration: none;
+      }
+      .copyright>ul {
+          position: absolute;
+          color: #737373;
+          font-size: 11px;
+          line-height: 15px;
+          margin-top: 12px;
+          margin-left: 165px;
+      }
+      .copyright{
+        	width: 50%;
+          padding: 20px 0px 20px 110px;
+      }
+      .social_media{
+          padding: 20px 110px 20px 0px;
+        	width: 50%;
+      }
+      .fa-social-fb-footer{
+        float: right;
+        font-size: 27px;
+        color: #009DE4;
+        line-height: 0;
+        vertical-align: middle;
+        padding: 25px 16px;
+        margin: 0px 10px 0px 0px;
+        border: 1px solid #DDD;
+      }
+      .fa-social-p-footer{
+        float: right;
+        font-size: 32px;
+        color: #009DE4;
+        line-height: 0;
+        vertical-align: middle;
+        border: 1px solid #DDD;
+        padding: 25px 11px;
+        margin-right: 80px;
+      }
 }
     @media only screen and (max-width: 1800px) {
         .col-1 {width: 8.33%;}
@@ -192,6 +269,81 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         .item_social{
            padding: 30px 60px;
          }
+         .footer-info>ul{
+              padding: 35px 0px 0px 25%;
+         }
+         .footer-info{
+           width: 25%;
+         }
+         .footer-about{
+            width: 18.5%;
+         }
+         .footer-pay{
+              width: 27%;
+         }
+         .footer-contact{
+           width: 29.5%;
+         }
+         .shop>.container>nav>ul>li {
+             margin: 0 27px;
+         }
+         footer{
+           height:370px;
+           margin-top: -370px;
+         }
+         .warper{
+              padding-bottom: 370px;
+         }
+         .footer-bottom{
+           margin-top: 0px;
+           height: 89px !important;
+         }
+         .copyright-name {
+              margin: 15px 0px 15px 80px;
+              position: absolute;
+              line-height: 18px;
+              font-weight: 700;
+              font-size: 18px;
+              color: #000;
+              text-decoration: none;
+          }
+          .copyright>ul {
+              position: absolute;
+              color: #737373;
+              font-size: 11px;
+              line-height: 15px;
+              margin-top: 12px;
+              margin-left: 165px;
+          }
+          .copyright{
+            	width: 50%;
+              padding: 20px 0px 20px 110px;
+          }
+          .social_media{
+              padding: 20px 110px 20px 0px;
+            	width: 50%;
+          }
+          .fa-social-fb-footer{
+            float: right;
+            font-size: 27px;
+            color: #009DE4;
+            line-height: 0;
+            vertical-align: middle;
+            padding: 25px 16px;
+            margin: 0px 10px 0px 0px;
+            border: 1px solid #DDD;
+          }
+          .fa-social-p-footer{
+            float: right;
+            font-size: 32px;
+            color: #009DE4;
+            line-height: 0;
+            vertical-align: middle;
+            border: 1px solid #DDD;
+            padding: 25px 11px;
+            margin-right: 80px;
+          }
+
 }
 
 @media only screen and (max-width: 1360px) {
@@ -276,6 +428,80 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .item_social{
        padding: 30px 60px;
      }
+     .footer-info>ul{
+          padding: 35px 0px 0px 15%;
+     }
+     .footer-info{
+       width: 25%;
+     }
+     .footer-about{
+        width: 18.5%;
+     }
+     .footer-pay{
+          width: 27%;
+     }
+     .footer-contact{
+       width: 29.5%;
+     }
+     .shop>.container>nav>ul>li {
+         margin: 0 27px;
+     }
+     footer{
+       height:370px;
+       margin-top: -370px;
+     }
+     .warper{
+          padding-bottom: 370px;
+     }
+     .footer-bottom{
+       margin-top: 0px;
+       height: 89px !important;
+     }
+     .copyright-name {
+          margin: 15px 0px 15px 80px;
+          position: absolute;
+          line-height: 18px;
+          font-weight: 700;
+          font-size: 18px;
+          color: #000;
+          text-decoration: none;
+      }
+      .copyright>ul {
+          position: absolute;
+          color: #737373;
+          font-size: 11px;
+          line-height: 15px;
+          margin-top: 12px;
+          margin-left: 165px;
+      }
+      .copyright{
+        	width: 50%;
+          padding: 20px 0px 20px 110px;
+      }
+      .social_media{
+          padding: 20px 110px 20px 0px;
+        	width: 50%;
+      }
+      .fa-social-fb-footer{
+        float: right;
+        font-size: 27px;
+        color: #009DE4;
+        line-height: 0;
+        vertical-align: middle;
+        padding: 25px 16px;
+        margin: 0px 10px 0px 0px;
+        border: 1px solid #DDD;
+      }
+      .fa-social-p-footer{
+        float: right;
+        font-size: 32px;
+        color: #009DE4;
+        line-height: 0;
+        vertical-align: middle;
+        border: 1px solid #DDD;
+        padding: 25px 11px;
+        margin-right: 80px;
+      }
 }
 
 @media only screen and (max-width: 960px) {
@@ -351,5 +577,83 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
     .item_social{
       padding: 30px 20px;
+    }
+    .footer-info{
+    		width: 100%;
+    }
+    .footer-about{
+    		width: 100%;
+    }
+    .footer-pay{
+    			width: 100%;
+    }
+    .footer-contact{
+      width: 100%;
+    }
+    .footer-info>ul,.footer-about>ul,.footer-pay>ul,.footer-contact>ul{
+      padding: 0 !important;
+      margin: 40px auto;
+      width: 50%;
+      text-align: center;
+    }
+    .shop>.container>nav>ul>li {
+      margin: 0 5px;
+    }
+    footer{
+      height:1210px;
+      margin-top: -1210px;
+    }
+    .warper{
+     		padding-bottom: 1210px;
+    }
+    .footer-bottom{
+      margin-top: 840px;
+      height: 89px !important;
+    }
+    .copyright>ul{
+      position: absolute;
+      color: #737373;
+      font-size: 11px;
+      line-height: 15px;
+      margin-top: 10px;
+      margin-left: 75px;
+    }
+    .copyright-name {
+        margin: 15px 0px 15px 10px;
+        position: absolute;
+        line-height: 18px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #000;
+        text-decoration: none;
+    }
+    .copyright{
+        width: 70%;
+        padding: 20px 0px 20px 10px;
+    }
+    .social_media{
+        padding: 20px 10px 20px 0px;
+        width: 30%;
+    }
+    .fa-social-fb-footer{
+      float: right;
+      font-size: 20px;
+      color: #009DE4;
+      line-height: 0;
+      vertical-align: middle;
+      padding: 17px 11px;
+      margin: 0px 0px;
+      border: 1px solid #DDD;
+      margin-right: 4px;
+    }
+    .fa-social-p-footer{
+      float: right;
+      font-size: 20px;
+      color: #009DE4;
+      line-height: 0;
+      vertical-align: middle;
+      padding: 17px 8px;
+      margin: 0px 0px;
+      border: 1px solid #DDD;
     }
 }

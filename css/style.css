@@ -37,9 +37,6 @@ body > .warper {
 	 height: auto;
 	 min-height: 100%;
 }
-.warper{
- 		padding-bottom: 370px;
-}
 ul
 {
 	list-style-type:none;
@@ -357,13 +354,15 @@ body
 .buy-now-button.button-out{
 margin-top: 49px;
 margin-left: -20px;
-width: 176px;
+width: 166px;
 height: 46px;
+text-align: center;
+float: none;
 }
 
 .buy-now-button.button-inner{
-	width: 170px;
 	height: 40px;
+	width: 160px;
 }
 .buy-now-button-mobile.button-out{
 	margin-top: 70px;
@@ -374,6 +373,22 @@ height: 46px;
 .buy-now-button-mobile.button-inner{
 width: 115px;
 height: 34px;
+}
+
+.add-cart-button.button-out{
+	margin: auto;
+	width: 106px;
+	height: 46px;
+	text-align: center;
+	float: none;
+}
+
+.add-cart-button.button-inner{
+	height: 40px;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 3.5px;
+		cursor: pointer;
 }
 .banner-text>span{
 	font-size: 13.5px;
@@ -515,8 +530,7 @@ i.fa.fa-shopping-cart.mobile::after
 		padding: 0px;
 }
 .shop>.container>nav>ul>li{
-	padding: 19px 0;
-	    margin: 0 27px;
+			padding: 19px 0;
 	    margin-top: 23px;
 	    padding-bottom: 16px;
 	    font-size: 12px;
@@ -551,10 +565,8 @@ footer{
 	clear: both;
   position: relative;
   z-index: 10;
-	background-color: red;
-	height: 370px;
-	margin-top: -370px;
 }
+
 .button-shop-show-more{
 	MARGIN: 0 auto;
 	    height: 40px;
@@ -573,12 +585,13 @@ background-color: #009DE4;
 	height:208px;
 }
 .add-to-cart{
-	position:relative;
-	top:0px;
-	width:156px;
-	height:208px;
+	position: relative;
+	top: 0px;
+	width: 156px;
+	padding: 75px 20px;
+	height: 208px;
 	background: rgba(0, 0, 0, 0);
-	opacity:0;
+	opacity: 0;
 }
 .add-to-cart:hover{
 	opacity:1;
@@ -858,4 +871,132 @@ dl.item_shop>dt>.add-to-cart:hover{
 	position: absolute;
 	top: 9px;
 	color: #DDD;
+}
+footer>.main-body{
+	    height: 280px;
+}
+.footer-info{
+		border: 1px solid white;
+		height: 100%;
+		background-color: #F3F3F3;
+		float: left;
+		border-right: 0;
+}
+.footer-about{
+    height: 100%;
+    float: left;
+    border: 1px solid white;
+    background-color: #F3F3F3;
+    border-right: 0;
+}
+.footer-about>ul{
+	padding: 35px 0px 0px 11%;
+}
+.footer-pay{
+	    height: 100%;
+	    float: left;
+	    border: 1px solid white;
+	    border-right: 0;
+	    background-color: #F3F3F3;
+}
+.footer-pay>ul {
+    padding: 35px 0px 0px 11%;
+}
+.footer-contact{
+    height: 100%;
+    float: left;
+    border: 1px solid white;
+    border-right: 0;
+    background-color: #F3F3F3;
+}
+
+.footer-contact>ul {
+    padding: 35px 0px 0px 6.5%;
+}
+
+.rest-info-contact-1{
+    margin-bottom: 0;
+		font-size: 13.5px;
+		color: #737373;
+}
+.rest-info-contact-2{
+		font-size: 30.5px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: black;
+}
+.rest-info-contact-3{
+	    color: #737373;
+			font-size: 13px;
+	    margin-bottom: 15px;
+}
+.rest-info-contact-3>a{
+		color: #009DE4;
+		text-decoration: underline;
+}
+.rest-info-contact-4{
+		font-size: 12px;
+    margin-bottom: 3px;
+    color: #737373;
+}
+.rest-info-contact-5{
+    font-size: 12px;
+		margin-bottom: 15px;
+    color: #737373;
+}
+.main-body>.col-12{
+	height: 100%;
+	padding: 0;
+}
+.title-info{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 23px;
+}
+.rest-info{
+	font-size: 13.5px;
+  margin-bottom: 15px;
+	color:#737373;
+}
+.rest-info-pay>span{
+	  font-weight: bold;
+		color: #585858;
+}
+.rest-info-pay{
+	color: #737373;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.copyright{
+	float: left;
+	height: 100%;
+	position: relative;
+	}
+.social_media{
+	float: left;
+	height: 100%;
+		}
+
+.copyright-name>.fa-recolor{
+		color: #009DE4;
+	 font-size: 4px!important;
+	 line-height: 0;
+	 vertical-align: middle;
+	 margin: 0 1px;
+}
+.copyright-name>.bigI{
+	font-size: 18px;
+}
+.fa-social-fb-footer:hover{
+      border: 1px solid #009DE4;
+}
+.fa-social-p-footer:hover{
+      border: 1px solid #009DE4;
+}
+.social_media>span{
+		float: right;
+    margin-right: 8px;
+    margin-top: 19px;
+    font-size: 12px;
+		color: #737373;
 }

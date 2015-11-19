@@ -13,7 +13,6 @@ $('.nav-list-item').on('click',function(e){
     }
 });
 
-//PHP CURL POST AND GET REST API
 
 $("#header__button").click(function() {
   $(this).toggleClass("hamburger--open");
